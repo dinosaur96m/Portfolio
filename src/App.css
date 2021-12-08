@@ -1,0 +1,39 @@
+/* html {
+  height: 100%;
+} */
+
+body {
+  height: 100%;
+  margin: 0;
+}
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
+}
+
+.about {
+  background-color: aqua;
+  border: 3px solid black;
+  grid-column: 1 / 2 ;
+  height:100%;
+}
+.rightPanel {
+  grid-column: 2 / 2 ;
+  height: 100%;
+  background-color: brown;
+} 
+
+.header{
+  background-color: orchid;
+  border: 3px solid black;
+}
+.project { 
+  background-color: palegreen;
+  border: 3px solid black;
+}
+.footer { 
+  background-color: purple;
+  border: 3px solid black;
+}
