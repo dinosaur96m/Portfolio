@@ -8,7 +8,7 @@ function About() {
                 { () => {
                 return (
                     <div className="aboutContent">
-                        <h1>Dino Mantinaos</h1>
+                        <h1 className="title">Dino Mantinaos</h1>
                         <div className="intro">
                             Hi there, I'm Dino, a Brooklyn based Software Developer. Thanks for taking the time to learn more about me and my work. I'd love to hear from you!
                         </div>
