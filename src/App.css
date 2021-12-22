@@ -7,12 +7,22 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 2%;
+  font-size: 20px;
+}
+
+h2 {
+  padding: 10%;
+  padding-bottom: 5%;
+}
 
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: 25% 75%;
   height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .about {
@@ -25,21 +35,39 @@ body {
   grid-column: 1 / 2 ;
   height:100%;
 }
-
 .aboutContent {
   backdrop-filter: contrast(35%) blur(3px);
   position: sticky;
-  bottom:0px;
+  top:0px;
+  bottom: 0px;
   height: 100vh;
-  color: greenyellow;
+  color: white;
   font-weight: bold;
 }
+
+.title {
+  font-weight: bolder;
+  font-size: 70px;
+  color: black;
+  padding: 25px;
+}
+.intro {
+  margin: 40px;
+  font-size: 20px;
+}
+.skills {
+  margin: 5%;
+  font-size: 20px;
+}
+
 .rightPanel {
   grid-column: 2 / 2 ;
   height: 100%;
   background-color: aliceblue;
 } 
-
+.brandStatement {
+  margin-top: 3%;
+}
 .logo {
   max-height: 3vh;
   border-radius: 4px;
@@ -48,6 +76,7 @@ body {
 
 .projTitle{
   margin: 1vh auto;
+  font-size: 50px;
 }
 .carousel {
   max-height: 60vh;
@@ -62,22 +91,13 @@ body {
 
 }
 
-.title {
-  padding: 50px;
-}
 
-.intro {
-  margin: 40px;
-  font-size: 20px;
+#skillsTitle {
+  font-weight: bolder;
+  font-size: 50px;
 }
-
-.skills {
-  margin: 40px;
-  font-size: 20px;
-}
-
 #headshot {
-  max-height: 12vh;
+  max-height: 18vh;
   border-radius: 100px;
   border: slategray solid 3px;
   margin: 10px;

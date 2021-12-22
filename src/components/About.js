@@ -8,12 +8,9 @@ function About() {
                 { () => {
                 return (
                     <div className="aboutContent">
-                        <h1 className="title">Dino Mantinaos</h1>
-                        <div className="intro">
-                            Hi there, I'm Dino, a Brooklyn based Software Developer. Thanks for taking the time to learn more about me and my work. I'd love to hear from you!
-                        </div>
                         <div className="skills">
-                            <h2>Technical Skills</h2>
+                            <h2 id="skillsTitle">Technical Skills</h2>
+                            <i class="fab fa-js-square"></i>
                             <span>MongoDB, Express.JS, React.JS, Node.JS</span>
                             <span>HTML, CSS, JavaScript</span>
                             <span>PostgresSQL, Sequelize, Git, GitHub, Bootstrap</span>
@@ -21,6 +18,7 @@ function About() {
                         <div className="resume">
                             <h1>RESUME</h1>
                         </div>
+                        <img id="headshot" src="/images/headshot.jpeg" alt="headshot" />
                     </div>
                     )
                 }
