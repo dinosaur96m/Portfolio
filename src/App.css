@@ -16,11 +16,20 @@ body {
 }
 
 .about {
+  display: grid;
   background-image: url('./bryantPark.png');
   background-size: 100vh auto;
-  background-position: center;
+  background-position: cover;
+  background-attachment:fixed;
   grid-column: 1 / 2 ;
-  height:100vh;
+  height:100%;
+}
+
+.aboutContent {
+  position: sticky;
+  top: 25vh;
+  left: 10px;
+  color:yellow;
 }
 .rightPanel {
   grid-column: 2 / 2 ;
