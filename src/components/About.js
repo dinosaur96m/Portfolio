@@ -1,6 +1,14 @@
 import { StickyContainer, Sticky } from "react-sticky"
+import {useState} from "react"
 
 function About() {
+
+    const [hovered, setHovered] = useState(false)
+
+    const handleHover = () => {
+        hovered ? setHovered(false) : setHovered (true)
+    }
+
     return (
         <StickyContainer>
         <div className="about">
@@ -9,16 +17,22 @@ function About() {
                 return (
                     <div className="aboutContent">
                         <div className="skills">
-                            <h2 id="skillsTitle">Technical Skills</h2>
-                            <i class="fab fa-js-square"></i>
-                            <span>MongoDB, Express.JS, React.JS, Node.JS</span>
-                            <span>HTML, CSS, JavaScript</span>
-                            <span>PostgresSQL, Sequelize, Git, GitHub, Bootstrap</span>
-                        </div>
-                        <div className="resume">
-                            <h1>RESUME</h1>
+                            <h2 id="skillsTitle">Technologies</h2>
+                            <i class="fab fa-react techIcon"></i>
+                            <i class="fab fa-node-js techIcon"></i>
+                            <i class="fab fa-html5 techIcon"></i>
+                            <i class="fab fa-js-square techIcon"></i>
+                            <i class="fab fa-css3-alt techIcon"></i>
+                           
+                            <i class="fab fa-bootstrap techIcon"></i>
+                            <i class="fab fa-git-square techIcon"></i>
+                            <i class="fab fa-github techIcon"></i>
                         </div>
                         <img id="headshot" src="/images/headshot.jpeg" alt="headshot" />
+                        <div className="resume">
+                            {/* <h2>Resume</h2> */}
+                            <a href="DM_devResume.pdf" download><i onMouseEnter={handleHover} onMouseLeave={handleHover} id={hovered ? "resTwo" : "res"} class="fas fa-file-alt techIcon"></i></a>
+                        </div>
                     </div>
                     )
                 }
