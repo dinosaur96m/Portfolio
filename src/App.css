@@ -111,3 +111,101 @@ h2 {
   margin: 10px;
   margin-top: 15%;
 }
+
+@media all and (max-width: 600px) {
+  .App {
+    text-align: center;
+    display: grid;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 100%;
+  }
+
+  .about {
+    backdrop-filter: opacity(20%);
+    background-image: url('./bryantPark.png');
+    background-size: 100%;
+    /* background-position: bottom 0px right 500px;
+    background-attachment:fixed; */
+    display: grid;
+    grid-row: 1/2;
+  }
+  .aboutContent {
+    backdrop-filter: contrast(35%) blur(3px);
+    /* position: sticky;
+    top:0px;
+    bottom: 0px; */
+    height: 5%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .rightPanel {
+  background-color: aliceblue;
+  grid-row: 2/2;
+  grid-column: 1/1;
+  display: grid;
+  }
+  .title {
+    font-weight: bolder;
+    font-size: 70px;
+    color: black;
+    padding: 25px;
+  }
+  .intro {
+    margin: 40px;
+    font-size: 20px;
+  }
+  .skills {
+    margin: 5%;
+  }
+  .techIcon {
+    font-size: 5vh;
+    margin: 3px;
+  }
+
+  .brandStatement {
+    margin-top: 3%;
+  }
+  .logo {
+    max-height: 3vh;
+    border-radius: 4px;
+    margin: 20px;
+  }
+  
+  .projTitle{
+    margin: 1vh auto;
+    font-size: 50px;
+  }
+  .carousel {
+    max-height: 60vh;
+    max-width: 60vw;
+    margin: 1vh auto;
+  }
+  .carousel-item {
+    max-height: 60vh;
+    max-width: 40vw;
+    border-radius: 5px;
+    margin:  0 15%;
+  
+  }
+  
+  #res {
+    color:white;
+  }
+  #resTwo {
+    color: rgb(143, 253, 143);
+  }
+  #skillsTitle {
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  #headshot {
+    max-height: 18vh;
+    border-radius: 100px;
+    border: slategray solid 3px;
+    margin: 10px;
+    margin-top: 15%;
+  }
+}
