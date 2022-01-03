@@ -137,11 +137,11 @@ h2 {
   }
   .aboutContent {
     backdrop-filter: contrast(35%) blur(3px);
-    position: fixed;
+    position: absolute;
     /* top:0px; */
     /* bottom: 0px; */
     /* height: 100%; */
-    height: 30vh;
+    height: 25vh;
     width: 100vw;
     color: white;
     font-weight: bold;
