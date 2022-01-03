@@ -11,7 +11,7 @@ function App() {
   const projectOne = {
     name: 'Target Practice',
     imgUrls: ['/images/targetPractice1.png', '/images/targetPractice2.png'],
-    description: "Target ractice is a simple yet satisfying archery game. The browser-based challenge allows two players to take 30 second turns as they use their bow and arrow to try and hit moving targets that are falling from the sky. Using the 'Q' and 'E' keys, players rotate the bow on a 180 degreee axis and use the spacebar to fire at the targets. Players earn one point for every bullseye they hit, and the first to fifteen points wins.",
+    description: "Target Practice is a simple yet satisfying archery game. The browser-based challenge allows two players to take 30 second turns as they use their bow and arrow to try and hit moving targets that are falling from the sky. Using the 'Q' and 'E' keys, players rotate the bow on a 180 degreee axis and use the spacebar to fire at the targets. Players earn one point for every bullseye they hit, and the first to fifteen points wins.",
     stack: 'HTML, CSS, Vanilla JavaScript'
   }
 
