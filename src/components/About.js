@@ -20,16 +20,16 @@ function About() {
                             <h2 id="skillsTitle">Technologies</h2>
                             <i class="fab fa-react techIcon"></i>
                             <i class="fab fa-node-js techIcon"></i>
+                            <i class="fab fa-python techIcon"></i>
                             <i class="fab fa-html5 techIcon"></i>
                             <i class="fab fa-js-square techIcon"></i>
                             <i class="fab fa-css3-alt techIcon"></i>
-                           
                             <i class="fab fa-bootstrap techIcon"></i>
                             <i class="fab fa-git-square techIcon"></i>
                             <i class="fab fa-github techIcon"></i>
                         </div>
                         <img id="headshot" src="/images/headshot.jpeg" alt="headshot" />
-                        <a href="DM_devResume.pdf" download><i onMouseEnter={handleHover} onMouseLeave={handleHover} id={hovered ? "resTwo" : "res"} class="fas fa-file-alt techIcon"></i></a>
+                        <a href="DM_22_RES.pdf" download><i onMouseEnter={handleHover} onMouseLeave={handleHover} id={hovered ? "resTwo" : "res"} class="fas fa-file-alt techIcon"></i></a>
                     </div>
                     )
                 }
