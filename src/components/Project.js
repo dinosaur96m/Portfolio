@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 function Project(props) {
     return (
         <div className="project">
-            <h2 className="projTitle">{props.project.name}</h2>
+            <a href={props.project.gitHub} target="_blank" style={{textDecoration: "none"}}><h2 className="projTitle">{props.project.name}</h2></a>
             <Carousel interval={null} variant="dark" fade={true}>
                 <Carousel.Item>
                     <img className="d-block w-100 projImg" src={props.project.imgUrls[0]} alt="First slide"/>
