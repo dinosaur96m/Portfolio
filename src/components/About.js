@@ -29,7 +29,7 @@ function About() {
                             <i class="fab fa-github techIcon"></i>
                         </div>
                         <img id="headshot" src="/images/headshot.jpeg" alt="headshot" />
-                        <a href="DM_devResume.pdf" download><i onMouseEnter={handleHover} onMouseLeave={handleHover} id={hovered ? "resTwo" : "res"} class="fas fa-file-alt techIcon"></i></a>
+                        <a href="Resume - Jan 2022 .pdf" download><i onMouseEnter={handleHover} onMouseLeave={handleHover} id={hovered ? "resTwo" : "res"} class="fas fa-file-alt techIcon"></i></a>
                     </div>
                     )
                 }
