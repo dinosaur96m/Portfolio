@@ -5,9 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+const loader = document.querySelector('.loader')
+const hideLoader = () => loader.classList.add('loader--hide');
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App hideLoader={hideLoader}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,12 +1,20 @@
 import logo from './logo.svg'
 import './App.css'
+import { useState, useEffect } from 'react'
+
 import About from './components/About.js'
 import Header from './components/Header.js'
 import Project from './components/Project'
 import Footer from './components/Footer'
 
 
-function App() {
+
+function App({hideLoader}) {
+
+
+  useEffect(() => {
+    hideLoader()
+  }, [])
 
   const projectOne = {
     name: 'Target Practice',
@@ -30,9 +38,7 @@ function App() {
     stack: 'MongoDB, Express, React, Node.JS, Mongoose, Cloudinary, Axios, ',
     gitHub: 'https://github.com/dinosaur96m/Helping-Hand-React'
   }
-
-
-  return (
+return (
     <div className="App">
       <About/>
       <div className="rightPanel">
@@ -49,7 +55,7 @@ function App() {
         <Footer/>
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
