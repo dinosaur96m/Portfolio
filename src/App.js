@@ -1,6 +1,6 @@
 import logo from './logo.svg'
 import './App.css'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
 import About from './components/About.js'
 import Header from './components/Header.js'
