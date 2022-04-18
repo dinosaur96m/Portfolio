@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/github.io/Portfolio/static/css/main.8d851833.chunk.css",
+    "main.js": "/github.io/Portfolio/static/js/main.a3384b93.chunk.js",
+    "main.js.map": "/github.io/Portfolio/static/js/main.a3384b93.chunk.js.map",
+    "runtime-main.js": "/github.io/Portfolio/static/js/runtime-main.c4977bad.js",
+    "runtime-main.js.map": "/github.io/Portfolio/static/js/runtime-main.c4977bad.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/github.io/Portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.52a5c6c5.chunk.js": "/github.io/Portfolio/static/js/2.52a5c6c5.chunk.js",
+    "static/js/2.52a5c6c5.chunk.js.map": "/github.io/Portfolio/static/js/2.52a5c6c5.chunk.js.map",
+    "static/js/3.eab960e9.chunk.js": "/github.io/Portfolio/static/js/3.eab960e9.chunk.js",
+    "static/js/3.eab960e9.chunk.js.map": "/github.io/Portfolio/static/js/3.eab960e9.chunk.js.map",
+    "index.html": "/github.io/Portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/github.io/Portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.8d851833.chunk.css.map": "/github.io/Portfolio/static/css/main.8d851833.chunk.css.map",
+    "static/js/2.52a5c6c5.chunk.js.LICENSE.txt": "/github.io/Portfolio/static/js/2.52a5c6c5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/github.io/Portfolio/static/media/bryantPark.3308f164.png",
+    "static/media/logo.6ce24c58.svg": "/github.io/Portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4977bad.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.52a5c6c5.chunk.js",
+    "static/css/main.8d851833.chunk.css",
+    "static/js/main.a3384b93.chunk.js"
+  ]
+}
